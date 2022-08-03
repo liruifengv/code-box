@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import CodeBox from "verify-code-box";
+import CodeBox from "verify-code-box"
 
 function App() {
   const codeRef = useRef()
@@ -17,7 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <CodeBox ref={codeRef} onChange={onChange} />
+      <div className="your-container">
+        <CodeBox ref={codeRef} onChange={onChange} />
+      </div>
     </div>
   )
 }
