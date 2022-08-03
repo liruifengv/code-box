@@ -1,5 +1,5 @@
 {
-  "name": "code-box",
+  "name": "verify-code-box",
   "version": "0.1.0",
   "description": "a React verification code component",
   "main": "dist/code-box.esm.js",

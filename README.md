@@ -1,8 +1,16 @@
 # CodeBox
----
-CodeBox 验证码输入组件
+### 
+React 验证码输入组件
 
-### 基本用法
+### 截图
+![screenshot](./screenshot/img1.png)
+
+#### 安装
+```
+npm install verify-code-box
+```
+
+#### 基本用法
 
 ```
 const codeRef = useRef()
@@ -20,14 +28,14 @@ const onChange = val => {
 
 ```
 
-#####  Attributes
+####  Attributes
 | 参数        | 说明           | 类型  | 可选值 | 默认值 |
 | ------------- |:-------------:| :-----|:-----|:-----|
 | ref   | 实例 |   func | ——— | ——— |
 | onChange   | change事件 |   func | ——— | ——— |
 
 
-##### 实例方法
+#### 实例方法
 
 | 方法名        | 说明           | 参数  |
 | ------------- |:-------------:| :-----|
