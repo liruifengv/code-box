@@ -1,0 +1,45 @@
+{
+  "name": "code-box",
+  "version": "0.1.0",
+  "description": "a React verification code component",
+  "main": "dist/code-box.esm.js",
+  "module": "dist/code-box.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf -r dist && rollup --config ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liruifengv/code-box.git"
+  },
+  "keywords": [
+    "react",
+    "verification code",
+    "code"
+  ],
+  "author": "liruifengv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liruifengv/code-box/issues"
+  },
+  "homepage": "https://github.com/liruifengv/code-box#readme",
+  "peerDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "postcss": "^8.4.14",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
