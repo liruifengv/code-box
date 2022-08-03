@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build_github_ci": "vite build --base=/verify-code-box/",
     "preview": "vite preview"
   },
   "dependencies": {
